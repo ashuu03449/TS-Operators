@@ -1,31 +1,16 @@
-import { constants } from "buffer"
+//Assignment
+//Arithmetic Operators (+,-,/,*,**,%,++)
 
-interface objType {
-    fname : string
-    age : number
-    email : string
-    passWord : number
-    func : ()=> void
-    hobby:string[] 
-    newObj: {
-        lname: string,
-        forgetPW: number
-    }
-}
+let num1: number = 6;
+let num2: number = 2;
+console.log(num1+num2)//Ans 8
+console.log(num1-num2)//Ans 4
+console.log(num1/num2)//Ans 3
+console.log(num1*num2)//Ans 12
+console.log(num1**num2)//Ans 36
+console.log(num1%num2)//Ans 0
+ num1 ++;//Increment means num1 value => 6 = 6 + 1 = 7
+ console.log(num1 + num2);//7 + 2 = 9 ans
+ 
 
 
-let objName = {
-    fname: "ayesha",
-    age: 16,
-    email: "ashii14245@getMaxListeners.com",
-    passWord: 3449,
-    func : () => {
-        console.log("hello ashu");
-    },
-    hobby:["programming","coding","web development"],
-    newobj : {
-        lname: "Shakoor",
-        forgetPw: 3559
-    }
-}
-let {fname} = objName

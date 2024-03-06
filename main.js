@@ -1,18 +1,15 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-var objName = {
-    fname: "ayesha",
-    age: 16,
-    email: "ashii14245@getMaxListeners.com",
-    passWord: 3449,
-    func: function () {
-        console.log("hello ashu");
-    },
-    hobby: ["programming", "coding", "web development"],
-    newobj: {
-        lname: "Shakoor",
-        forgetPw: 3559
-    }
-};
-var fname = objName.fname, func = objName.func, hobby = objName.hobby;
-console.log(fname, func(), hobby);
+//Assignment
+//Arithmetic Operators (+,-,/,*,**,%,++,--)
+var num1 = 6;
+var num2 = 2;
+//Addition
+console.log(num1 + num2); //Ans 8
+console.log(num1 - num2); //Ans 4
+console.log(num1 / num2); //Ans 3
+console.log(num1 * num2); //Ans 12
+console.log(Math.pow(num1, num2)); //Ans 36
+console.log(num1 % num2); //Ans 0
+num1++; //num1= num1 + 1 => 6 = 6 + 1 = 7
+console.log(num1 + num2); //7 + 2 = 9 ans
+num2--; //num1 = num1 -1 => 6 = 6 - 1
+console.log(num1 - num2);
